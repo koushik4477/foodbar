@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color:rgb(83, 185, 232) ;
+}
+.navbar-brand{
+    font-size: 2rem;
+    color: black;
+    font-family: "Spicy Rice", serif;
+}
+.navbar-brand:hover{
+    color: black;
+}
+
+.nav-item{
+    padding: 0.5em;
+   
+}
+.nav-link{
+   font-size: 1.5em;
+   font-family: "Fredoka", sans-serif;
+   padding: 0.5em;
+}
+.main{
+    background-image: url("bg.jpg");
+    background-repeat: none;
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+
+}
+.main h1{
+    font-size: 4rem;
+    font-weight: 700;
+}
+.nav-item:hover {
+    border: 2px solid #000; 
+    border-radius: 35px; 
+  }
+  h1{
+    font-weight: 700;
+  }
+  .btn1{
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: aquamarine;
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+  }
+  .btn1:hover{
+    background-color: rgba(184, 178, 178, 0.786);
+    transition: 0.5s;
+    color: black;
+  }
+  .card:hover{
+    -webkit-box-shadow: 10px 14px 24px 13px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 14px 24px 13px rgba(0,0,0,0.75);
+box-shadow: 10px 14px 24px 13px rgba(0,0,0,0.75);
+  }
+    
+   
+    .contact {
+        background-color: #f8f9fa;
+        padding: 40px 0;
+        border-radius: 8px;
+      }
+      
+      .contact h1 {
+        font-family: 'Fredoka', sans-serif; 
+        color: #343a40; 
+      }
+      
+      .contact p {
+        color: #6c757d; 
+      }
+      
+      .btn-hover {
+        position: relative;
+        overflow: hidden;
+      }
+      
+      .btn-hover:hover {
+        background-color: #0056b3;
+        color: #fff; 
+        transition: background-color 0.3s ease;
+      }
+      
+      .btn-hover:after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(255, 255, 255, 0.2); 
+        opacity: 0;
+        transition: opacity 0.3s ease;
+      }
+      
+      .btn-hover:hover:after {
+        opacity: 1;
+      }
+    
